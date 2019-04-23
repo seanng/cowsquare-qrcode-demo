@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cowsquare-qrcode-demo/static/css/main.523df69a.chunk.css",
+    "main.js": "/cowsquare-qrcode-demo/static/js/main.21be867e.chunk.js",
+    "main.js.map": "/cowsquare-qrcode-demo/static/js/main.21be867e.chunk.js.map",
+    "runtime~main.js": "/cowsquare-qrcode-demo/static/js/runtime~main.0098e99b.js",
+    "runtime~main.js.map": "/cowsquare-qrcode-demo/static/js/runtime~main.0098e99b.js.map",
+    "static/js/2.2bc574f0.chunk.js": "/cowsquare-qrcode-demo/static/js/2.2bc574f0.chunk.js",
+    "static/js/2.2bc574f0.chunk.js.map": "/cowsquare-qrcode-demo/static/js/2.2bc574f0.chunk.js.map",
+    "index.html": "/cowsquare-qrcode-demo/index.html",
+    "precache-manifest.0a70ffbb5f6ec5332b196f05c3b8dd28.js": "/cowsquare-qrcode-demo/precache-manifest.0a70ffbb5f6ec5332b196f05c3b8dd28.js",
+    "service-worker.js": "/cowsquare-qrcode-demo/service-worker.js",
+    "static/css/main.523df69a.chunk.css.map": "/cowsquare-qrcode-demo/static/css/main.523df69a.chunk.css.map"
+  }
+}
