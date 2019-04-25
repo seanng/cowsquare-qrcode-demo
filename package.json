@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://seanng.github.io/cowsquare-qrcode-demo",
   "dependencies": {
+    "dom-to-image": "^2.6.0",
     "gh-pages": "^2.0.1",
     "qrcode.react": "^0.9.3",
     "react": "^16.8.6",

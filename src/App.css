@@ -12,15 +12,30 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+#dom-container {
+  border: 1px solid red;
+}
+
+.dom-image {
+  height: auto;
+  width: 120px;
 }
 
 @keyframes App-logo-spin {
