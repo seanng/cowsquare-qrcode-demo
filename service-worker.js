@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.0/workbox-sw.js");
 
 importScripts(
-  "/cowsquare-qrcode-demo/precache-manifest.0a70ffbb5f6ec5332b196f05c3b8dd28.js"
+  "/cowsquare-qrcode-demo/precache-manifest.b45f336b04352e76f0d5e6d9f3eacc81.js"
 );
 
 self.addEventListener('message', (event) => {
