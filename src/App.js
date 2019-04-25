@@ -3,6 +3,13 @@ import domtoimage from 'dom-to-image';
 import QRCode from 'qrcode.react';
 import './App.css';
 
+const transformDomToImage = async (domContainer, imgContainer) => {
+  const dataUrl = await domtoimage.toJpeg(domContainer)
+  const img = new Image()
+  img.src = dataUrl
+  imgContainer.appendChild(img)
+}
+
 function App() {
   const [input, setInput] = useState('')
   const [qrCode, setQrCode] = useState('')
@@ -16,17 +23,14 @@ function App() {
 
   useEffect(() => {
     if (hasImgLoaded) {
-      const transformDomToImage = async (domContainer, imgContainer) => {
-        const dataUrl = await domtoimage.toJpeg(domContainer)
-        const img = new Image()
-        img.src = dataUrl
-        imgContainer.appendChild(img)
-      }
       const domContainer = document.getElementById('dom-container')
       const imgContainer = document.getElementById('image-container') 
+      if (imgContainer.childNodes.length > 0) {
+        imgContainer.removeChild(imgContainer.childNodes[0])
+      }
       transformDomToImage(domContainer, imgContainer)
     }
-  }, [hasImgLoaded])
+  }, [hasImgLoaded, qrCode])
 
   return (
     <div className="App">
