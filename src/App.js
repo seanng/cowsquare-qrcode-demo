@@ -4,7 +4,7 @@ import QRCode from 'qrcode.react';
 import './App.css';
 
 const transformDomToImage = async (domContainer, imgContainer) => {
-  const dataUrl = await domtoimage.toJpeg(domContainer)
+  const dataUrl = await domtoimage.toSvg(domContainer)
   const img = new Image()
   img.src = dataUrl
   imgContainer.appendChild(img)
